@@ -1,0 +1,11 @@
+api_version = "2026-04"
+
+[[extensions]]
+name = "UPI Code Manager"
+handle = "upi-management-block"
+uid = "1ba13b37-a3cf-0731-aace-ecd9d30b59808e5aad5b"
+type = "ui_extension"
+
+[[extensions.targeting]]
+target = "admin.product-details.block.render"
+module = "./src/BlockExtension.jsx"
