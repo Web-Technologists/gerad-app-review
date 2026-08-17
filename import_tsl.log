@@ -1,0 +1,33 @@
+nohup: ignoring input
+=================================================
+      Shopify Product CSV Importer & Sync        
+=================================================
+CSV File: UPDATED.0722.csv
+Mode:     [LIVE IMPORT]
+Option:   [RESUME MODE ACTIVE] (Skipping already synced products)
+
+Loading existing product catalog from database...
+Catalog loaded: 22557 products in local database.
+
+CSV Parse Results:
+  • Total CSV Rows:         19635
+  • Matched Products:       555
+  • Explicit CSV Licensors: 19635 (Assigned directly)
+  • Various/Empty Licensors:0 (Requires manual review)
+  • Unmatched Rows:         0
+  • Products To Update:     58 across 2 store(s)
+
+Store Modification Breakdown:
+  - DZ Dezigns: 57 product(s) modified
+  - The Penguin Shoppe: 1 product(s) modified
+
+Applying updates to database and queueing Shopify push...
+Processing store: dzdezigns.myshopify.com (DZ Dezigns) - 57 products...
+  [✓] Processed 57 / 57 products for dzdezigns.myshopify.com
+Processing store: the-penguin-shoppe.myshopify.com (The Penguin Shoppe) - 1 products...
+  [✓] Processed 1 / 1 products for the-penguin-shoppe.myshopify.com
+
+=================================================
+SUCCESS: Bulk CSV Import & Sync Completed!
+Total Products Updated: 58
+=================================================
